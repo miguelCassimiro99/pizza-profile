@@ -10,7 +10,7 @@ defineProps<ISkill>()
 <template lang="pug">
 div(class="group relative flex cursor-pointer")
   img(
-    class="w-10 h-10 rounded-full border object-cover xl:h-12 xl:w-12 filter group-hover:grayscale transition duration-300 ease-in-out"
+    class="w-14 h-14 rounded-full border object-cover xl:h-12 xl:w-12 filter group-hover:grayscale transition duration-300 ease-in-out"
     :src="logoUrl"
     :alt="name"
   )

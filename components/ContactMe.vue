@@ -21,20 +21,20 @@ const submitForm = async () => {
 div(class="relative h-screen flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center")
   SectionTitleComponent(label="contact")
 
-  div(class="flex flex-col justify-center items-center text-center space-y-5")
-    h4(class="text-3xl font-semibold flex space-x-2") 
+  div(class="flex flex-col justify-center items-center text-center space-y-2 md:space-y-5")
+    h4(class="text-xl md:text-3xl font-semibold flex space-x-2") 
       span Yes we can.
       span(class="border-b-2 border-[#F7AB0A]") Lets Talk.
 
-    div(class="flex justify-center items-center space-x-4 text-lg")
+    div(class="flex justify-center items-center space-x-4 text-xs md:text-lg")
       Icon(name="ph:phone-fill" class="w-6 h-6 text-[#F7AB0A] animate-pulse")
       span +5512997751916
 
-    div(class="flex justify-center items-center space-x-4 text-lg")
+    div(class="flex justify-center items-center space-x-4 text-xs md:text-lg")
       Icon(name="ph:envelope-bold" class="w-6 h-6 text-[#F7AB0A] animate-pulse")
       span miguel.cassimiro99@gmail.com
     
-    div(class="flex justify-center items-center space-x-4 text-lg")
+    div(class="flex justify-center items-center space-x-4 text-xs md:text-lg")
       Icon(name="ph:map-pin" class="w-6 h-6 text-[#F7AB0A] animate-pulse")
       span Taubate, SP - Brazil
 
