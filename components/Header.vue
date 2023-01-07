@@ -1,5 +1,5 @@
 <template lang="pug">
-header(class="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center")
+header(class="sticky top-0 py-5 px-8 xl:px-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center")
   div(class="flex items-center social-icons space-x-3")
     NuxtLink(to="https://t.me/maiguelman" target="_blank" rel="noopener noreferrer")
       Icon(name="ph:telegram-logo" class="w-6 h-6 text-gray-600 hover:text-gray-400")

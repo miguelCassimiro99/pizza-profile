@@ -12,7 +12,7 @@ const projects = [{
 div(class="relative h-screen flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center")
   SectionTitleComponent(label="Projects")
 
-  div(class="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 ")
+  div(class="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80")
 
     div(
       v-for="(project, index) in projects"

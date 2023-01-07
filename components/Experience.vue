@@ -26,7 +26,7 @@ const choseImage = (companyLogo: string):any => {
 div(class="flex flex-col relative h-screen overflow-hidden text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center")
   AtomsSectionTitleComponent(label="Experience")
 
-  div(class="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-center mt-28 md:mt-0")
+  div(class="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-center mt-28 md:mt-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80")
     ExperienceCard(v-for="(work, index) in workExperience" :key="index"
       :company-logo="choseImage(work.companyLogo)"
       :company="work.company"
