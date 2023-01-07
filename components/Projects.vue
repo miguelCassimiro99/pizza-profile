@@ -1,11 +1,34 @@
 <script lang="ts" setup>
 import SectionTitleComponent from './atoms/SectionTitleComponent.vue';
 
-const projects = [{
-  name: 'UmDois Esportes',
-  description: 'A new project',
-  img: 'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210712212601/Top-10-Front-End-Web-Development-Projects-for-Beginners.png'
-}]
+const projects = [
+  {
+    name: 'UmDois Esportes',
+    description: 'A regional sports website. Follow the mainly news about soccer, championships, teams and opinions',
+    img: 'https://media.gazetadopovo.com.br/sites/3/2020/11/22094831/meta-image-um-dois-esportes.jpg'
+  },
+  {
+    name: 'Piolett',
+    description: 'An enterprise management software. Track your sells, CRM, invoice emmits',
+    img: 'https://piolett.com/static/img/piolett_mockup_br-min.webp'
+  },
+  {
+    name: 'Utils Dog',
+    description: 'Make it easy :)',
+    img: '/utils-dog.png'
+  },
+  {
+    name: 'HearTalks',
+    description: 'A secret message to make someone smile',
+    img: '/heart-talks.png'
+  },
+  {
+    name: 'Figma Blog Design',
+    description: 'A mobile prototype for a Design Blog',
+    img: '/figma-design-blog.png'
+  },
+
+]
 
 </script>
 <template lang="pug">
