@@ -7,8 +7,7 @@ div(class="h-screen flex flex-col space-y-8 items-center justify-center text-cen
   )
   div(class="z-20")
     h2(class="text-sm uppercase text-gray-500 pb-2 tracking-[15px]") Software Engineer
-    h1(class="text-5xl lg:text-6xl font-semibold px-10")
-      VueWriter(:array="message")
+    h1(class="text-5xl lg:text-6xl font-semibold px-10") Miguel Cassimiro
     div(class="pt-5")
       a(href="#about")
         button(class="heroButton") About
