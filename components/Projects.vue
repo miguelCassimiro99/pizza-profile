@@ -39,6 +39,12 @@ const projects = [
     img: '/figma-design-blog.png',
     url: 'https://www.figma.com/community/file/1139227518461793037'
   },
+  {
+    name: 'Login Screen',
+    description: 'A login screen using Nuxt 3, Tailwind and some CSS animation.',
+    img: '/login-screen.png',
+    url: 'https://pizza-login-kappa.vercel.app/'
+  }
 ] as IProjects[]
 
 </script>
