@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper overflow-hidden">
+  <div class="overflow-hidden">
       <svg height="320" width="400" class="logo-triangle">
           <defs>
               <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
@@ -17,9 +17,9 @@
           </filter>
           <polygon points="0,0 400,0 200,300" stroke="#36e2f8" stroke-width="3" />
       </svg>
-      <div class="flex flex-col justify-center items-center">
-        <h1>Miguel </h1>
-        <h2 class="z-20 relative px-2 py-10 mt-16">Front-end</h2>
+      <div class="flex flex-col justify-center items-center mt-40 md:mt-20">
+        <h1 class="text-7xl md:text-9xl">Miguel</h1>
+        <h2 class="z-20 absolute -bottom-10 md:top-20 px-2 py-10 font-yellowtail text-6xl md:text-[150px]">Cassimiro</h2>
       </div>
 
   </div>
@@ -28,13 +28,9 @@
 h1 {
   color: #C6CBF5;
   font-family: 'Orbitron', sans-serif;
-  font-size: 120px;
   font-weight: 1000;
   line-height: 1.2;
-  left: 50%;
   margin: 0;
-  margin-left: -420px;
-  position: absolute;
   text-align: center;
   text-transform: uppercase;
   top: 80px;
@@ -49,9 +45,6 @@ h1 {
 
 h2 {
   color: #d100b1;
-  display: block;
-  font-family: 'Yellowtail', cursive;
-  font-size: 150px;
   text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
   text-align: center;
   text-decoration: underline;
