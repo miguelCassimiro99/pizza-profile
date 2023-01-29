@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden">
-      <svg height="320" width="400" class="logo-triangle">
+      <svg class="logo-triangle h-[320px] w-[400px]">
           <defs>
               <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
                   <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
@@ -19,7 +19,7 @@
       </svg>
       <div class="flex flex-col justify-center items-center mt-40 md:mt-20">
         <h1 class="text-7xl md:text-9xl">Miguel</h1>
-        <h2 class="z-20 absolute -bottom-10 md:top-20 px-2 py-10 font-yellowtail text-6xl md:text-[150px]">Cassimiro</h2>
+        <h2 class="z-20 absolute -bottom-12 md:top-20 px-2 py-10 font-yellowtail text-6xl md:text-[150px]">Cassimiro</h2>
       </div>
 
   </div>
