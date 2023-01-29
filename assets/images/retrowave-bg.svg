@@ -1,0 +1,52 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_2)">
+<rect width="1920" height="1080" fill="black"/>
+<rect width="1920" height="540" fill="url(#paint0_linear_1_2)"/>
+<circle cx="1344" cy="278" r="162" fill="url(#paint1_linear_1_2)"/>
+<path d="M10 515V570.5H1927V475.5L1852.5 408L1784 435L1763.5 494.5L1696 447.5L1651.5 475.5L1604.5 408L1533.5 447.5L1507 408L1437 344.5L1375 364L1335.5 408L1253 317L1231.5 353.5L1147.5 309L1066.5 333.5L979 270L940.5 291.5L859.5 219L665 344.5L619.5 317L482.5 408L429 385.5L317.5 435L289.5 421L241 494.5L165 447.5L106.5 487L75 475.5L10 515Z" fill="#30003E" fill-opacity="0.78"/>
+<path d="M1918 515V570.5H1V475.5L75.5 408L144 435L164.5 494.5L232 447.5L276.5 475.5L323.5 408L394.5 447.5L421 408L491 344.5L553 364L592.5 408L675 317L696.5 353.5L780.5 309L861.5 333.5L949 270L987.5 291.5L1068.5 219L1263 344.5L1308.5 317L1445.5 408L1499 385.5L1610.5 435L1638.5 421L1687 494.5L1763 447.5L1821.5 487L1853 475.5L1918 515Z" fill="black"/>
+<rect y="26" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="506" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="476" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="446" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="492" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="461" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="416" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="386" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="431" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="401" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="356" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="371" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="326" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="341" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="296" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="311" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="236" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="252" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect x="1" y="266" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect x="1" y="281" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="206" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="221" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect x="-2" y="176" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect x="-2" y="191" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect x="-2" y="161" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="146" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="131" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="116" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="86" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+<rect y="56" width="1920" height="10" fill="black" fill-opacity="0.05"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_2" x1="960" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="1" stop-color="#4F006B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_2" x1="1344" y1="116" x2="1344" y2="440" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F697FE"/>
+<stop offset="0.629796" stop-color="#2B0043"/>
+</linearGradient>
+<clipPath id="clip0_1_2">
+<rect width="1920" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>
