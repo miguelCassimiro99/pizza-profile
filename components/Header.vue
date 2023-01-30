@@ -11,14 +11,20 @@ header(class="sticky top-0 py-5 px-8 xl:px-5 flex items-start justify-between ma
       Icon(name="ph:pinterest-logo-fill" class="w-6 h-6 text-gray-600 hover:text-gray-400")
     //- Social Icons
 
-  div(class="flex text-gray-600 cursor-pointer mail-contact")
+  div(class="flex text-gray-600 cursor-pointer mail-contact space-x-4")
     NuxtLink(
-      to="mailto:miguel.cassimiro99@gmail.com"
-      target="_blank"
-      class="flex items-center justify-center space-x-1 hover:text-gray-400"
-    )
-      Icon(name="ph:envelope" class="w-6 h-6")
-      p(class="uppercase hidden md:inline-flex text-sm text-gray-200") Get in touch
+        to="mailto:miguel.cassimiro99@gmail.com"
+        target="_blank"
+        class="flex items-center justify-center space-x-1 hover:text-gray-400"
+      )
+        Icon(name="ph:envelope" class="w-6 h-6")
+        p(class="uppercase hidden md:inline-flex text-sm text-gray-200") Get in touch
+
+    NuxtLink(
+        to="/retrowave"
+        class="flex items-center justify-center space-x-1 hover:text-gray-400"
+      )
+        p(class="uppercase hidden md:inline-flex text-sm text-gray-200") Retrowave
 
 </template>
 
