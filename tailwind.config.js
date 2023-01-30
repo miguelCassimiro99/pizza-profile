@@ -9,7 +9,11 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'yellowtail': ['Yellowtail', 'sans-serif']
+      }
+    },
   },
   plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }
