@@ -4,7 +4,3 @@ main(class="h-screen w-full overflow-y-auto overflow-x-hidden bg-black fixed")
   div(class="h-screen bg-black")
 
 </template>
-<script lang="ts" setup>
-
-
-</script>
