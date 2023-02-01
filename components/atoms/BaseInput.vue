@@ -1,6 +1,6 @@
 <template>
 <input
-  class="outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7Ab0A]/40 hover:border-[#F7AB0A]/40"
+  class="outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7Ab0A]/40 hover:border-[#F7AB0A]/40 h-10 md:h-14"
   :placeholder="placeholder"
   type="text"
   :value="modelValue"

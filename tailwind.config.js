@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'yellowtail': ['Yellowtail', 'sans-serif']
+      },
+      screens: {
+        'xs': '320px'
       }
     },
   },
