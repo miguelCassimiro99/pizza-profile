@@ -12,7 +12,6 @@ const formData = reactive({
 
 const submitForm = async () => {
   const emailBody = `mailto:miguel.cassimiro99@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`
-
   window.location.href = emailBody;
 }
 
@@ -21,7 +20,7 @@ const submitForm = async () => {
 div(class="relative h-screen flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center")
   SectionTitleComponent(label="contact")
 
-  div(class="flex flex-col justify-center items-center text-center space-y-2 md:space-y-5")
+  div(class="flex flex-col justify-center items-center text-center mt-4 md:mt-0 space-y-2 md:space-y-5")
     h4(class="text-xl md:text-3xl font-semibold flex space-x-2") 
       span Yes we can.
       span(class="border-b-2 border-[#F7AB0A]") Lets Talk.
@@ -48,7 +47,7 @@ div(class="relative h-screen flex flex-col text-center md:text-left xl:flex-row 
       BaseInput(placeholder="Subject" v-model="formData.subject")
       textarea(class="contactInput" placeholder="Message" v-model="formData.message")
       button(
-        class="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+        class="bg-[#F7AB0A] py-2 px-10 rounded-md text-black font-bold text-lg"
         type="submit"
       ) Submit
 

@@ -3,7 +3,7 @@ div(class="flex flex-col relative h-screen text-center md:text-left md:flex-row 
   AtomsSectionTitleComponent(label="About")
   img(
     ref="about-photo"
-    class="-mb-40 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+    class="-mb-40 md:mb-0 hidden sm:block flex-shrink-0 xs:w-20 xs:h-32 sm:w-48 sm:h-48 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
     src="/perfil.jpg"
   )
 

@@ -24,7 +24,7 @@ header(class="sticky top-0 py-5 px-8 xl:px-5 flex items-start justify-between ma
         to="/retrowave"
         class="flex items-center justify-center space-x-1 hover:text-gray-400"
       )
-        p(class="uppercase hidden md:inline-flex text-sm text-gray-200") Retrowave
+        p(class="uppercase hidden text-sm text-gray-200") Retrowave
 
 </template>
 
